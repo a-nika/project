@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, p, ul, blockquote {
+h1, h2, h3, p, ul, li, blockquote {
   width: 700px;
   margin: 0 auto;
 }
@@ -66,12 +66,12 @@ blockquote {
 }
 
 ul {
-  margin: 29px 0 0 29px;
+  margin: 29px auto;
 }
 
 li {
   list-style-type: disc;
-  margin-top: 17px;
+  margin: 17px 0 17px 30px;
 }
 
 a, a:visited {
