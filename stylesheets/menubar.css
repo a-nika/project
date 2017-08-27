@@ -1,0 +1,28 @@
+.menubar {
+  width: 100%;
+}
+
+.menubar div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 20px;
+}
+
+.about {
+  font-size: 14px;
+  color: rgba(0, 0, 0, .2);
+}
+
+.about:hover {
+  color: rgba(0, 0, 0, .45);
+}
+
+.logo {
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/wikimedium_logo.svg);
+}

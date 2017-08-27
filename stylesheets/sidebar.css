@@ -1,0 +1,38 @@
+.sidebar {
+  position: fixed;
+  width: 300px;
+  left: 20px;
+  top: 46px;
+  opacity: .1;
+  transition: all .1s ease-out;
+}
+
+.sidebar:hover {
+  opacity: 1;
+}
+
+.sidebar > ul {
+  padding: 15px 30px;
+}
+
+.sidebar ul li ul {
+  padding-left: 10px;
+}
+
+.sidebar li {
+  font-size: 14px;
+  line-height: 15px;
+  margin: 12px 0;
+}
+
+.sidebar li {
+  color: rgba(0, 0, 0, .8);
+}
+
+.sidebar > ul > li:first-child {
+  font-weight: bold;
+}
+
+.sidebar ul li ul li {
+  color: rgba(0, 0, 0, .4);
+}
